@@ -1,0 +1,240 @@
+body{
+    background-color:#f5efdc;
+}
+/*1st bar*/
+.social-bar{
+    background-color: #de493c;
+    border-top: 3px solid #de493c;
+}
+
+
+.social-bar ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 10;
+    text-align: right;
+}
+
+.social-bar li{
+    display:inline;
+    margin-right:10px;
+    font-size: 10;
+    color: black;
+    text-decoration: none;
+    
+}
+
+.social-bar a{
+    color:white;
+    text-decoration: none;
+}
+
+.social-bar p{
+    text-align: right;
+}
+.social-bar{
+    background-color:#de493c;
+}
+
+/*2nd bar*/
+.info h1{
+    color: white;
+    padding-left: 20px;
+}
+
+.quote p{
+    font-style: italic;
+}
+.info{
+    background: rgb(225,115,102);
+    background: -moz-linear-gradient(top, rgba(225,115,102,1) 8%, rgba (222,73,60,1) 26%);
+    background: -webkit-linear-gradient(top, rgba(225,115,102,1) 8%, rgba(222,73,60,1) 26%);
+    background: linear-gradient(to bottom, rgba(255,115,102,1) 8%,rgba(222,73,60,1) 26%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff7366', endColorstr='#de493c',GradientType=0 );
+    color: white;
+}
+.info-bar2 ul{
+    list-style: none;
+    padding-left: 30px;
+    margin-top: 20px;
+    text-align: right;
+}
+.info-bar2 li{
+    display: inline;
+    margin-right: 10px;
+}
+.info-bar2 a{
+    color: black;
+    text-decoration: none;
+}
+.info-bar2 a:hover{
+    border:5px solid wheat;
+    border-radius: 10px;
+    padding: 5px;
+    background: wheat;
+}
+
+.quote form{
+    background-color: #fcf7cf;
+}
+
+.form-control{
+    width: 25%;
+    float: right;
+}
+
+.search-bar{
+    color:#7d2f29;
+    padding-top: 10px;
+}
+
+.search-bar i{
+    position: absolute;
+    right: 0;
+    padding: 10px 12px;
+    padding-right: 20px;
+    pointer-events: none;
+}
+
+/*Six Squares*/
+.square-section{
+    margin-top: 20px;
+    padding-left: 100px;
+}
+
+.square-section a{
+    color:red;
+    margin: 0;
+    font-size: 14px;
+    padding-top: 5px;
+    padding-left: 10px;
+}
+
+.square-section p{
+    margin:0;
+    font-size: 10px;
+    padding-left: 10px;
+}
+
+.wrapper{
+    margin: 30px 15px 0 15px;
+    padding: 0;
+    width: 300px;
+    text-align: left;
+    background: white;
+}
+.h2 {
+    background-color: #f7f4e9;
+}
+.next-section{
+    background-color: #f7f4e9;
+}
+
+.logo{
+    background-color: #63635c;
+    color:#a6a59f;
+}
+.logo ul{
+    list-style: none;
+    margin: 0;
+    padding: 15px;
+    text-align: center;
+}
+
+.logo li {
+    display: inline;
+    padding: 0 60px;
+    font-size: 18px;
+}
+
+.text1{
+    font-family:'Gloria Hallelujah', cursive;
+}
+
+.text2{
+    font-family:'Pacifico', cursive;
+}
+
+.text3{
+    font-family:
+}
+
+.text4{
+    font-family:
+}
+
+.text5{
+    font-family:
+}
+
+.logo img{
+    width: 1340px;
+}
+.information{
+    background-color: #595852;
+    color: white;
+}
+
+.information a{
+    color: white;
+    text-decoration: none;
+}
+
+.copyright{
+    background-color:#403f38;
+    color: white;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 320px) {
+    
+    .search-bar input{
+        width: 300px;
+        margin-bottom: 30px;
+    }
+    .quote p{
+        text-align: center;
+        padding-top: 25px;
+    }
+    .wrapper img{
+        width: 250px;
+    }
+    .wrapper{
+        width: 250px;
+    }
+    .square-section{
+        padding-left: 25px;
+    }
+    .social-bar ul{
+        text-align: center;
+    }
+    .next-section h2{
+        text-align: center;
+        padding-bottom: 15px;   
+    }
+    .next-section-1 img{
+        margin-top: 25px;
+    }
+    445445
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    
+
+}
